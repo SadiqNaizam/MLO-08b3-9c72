@@ -61,13 +61,25 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+        // PRD specific colors added for utility class generation
+        'prd-accent-main': 'hsl(var(--prd-accent-main))',
+        'prd-accent-secondary': 'hsl(var(--prd-accent-secondary))',
+        'prd-success': 'hsl(var(--prd-success))',
+        'prd-primary-text': 'hsl(var(--prd-primary-text))',
+        'prd-secondary-text': 'hsl(var(--prd-secondary-text))',
+        'prd-surface': 'hsl(var(--prd-surface))',
+        'prd-sidebar-bg': 'hsl(var(--prd-sidebar-bg))',
+        'prd-border-color': 'hsl(var(--prd-border-color))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+      },
 			keyframes: {
 				'accordion-down': {
 					from: {
